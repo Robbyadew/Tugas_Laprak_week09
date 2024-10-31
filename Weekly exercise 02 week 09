@@ -1,0 +1,4 @@
+~List adalah kumpulan data yang terurut dan dapat diubah. Mengizinkan anggota yang duplikat.
+~Tuple adalah kumpulan data yang terurut dan tidak dapat diubah. Mengizinkan anggota yang duplikat.
+~Set adalah kumpulan data yang tidak terurut, tidak dapat diubah, dan tidak terindeks. Tidak mengizinkan anggota yang duplikat.
+~Dictionary adalah kumpulan data yang terurut dan dapat diubah. Tidak mengizinkan anggota yang duplikat.
