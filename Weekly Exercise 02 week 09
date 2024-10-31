@@ -1,0 +1,20 @@
+Nama_Mahasiswa = {
+        "Nama" : "Robby Ade Pratama",
+        "Kelas" : "02",
+        "Tanggal Lahir" : "23 Juni 2006",
+        "No. HP" : "0882008113549",
+        "Alamat" : "temanggung",
+        "Hobi" : {
+            "Hobi 1" : "Main Air",
+            "Hobi 2" : "Mancing",
+            "Hobi 3" : "Membaca",
+         }
+}
+
+for key, value in Nama_Mahasiswa.items():
+  if key == "Hobi":
+    print(f"{key}:")
+    for hobi_key, hobi_value in value.items():
+      print(f"- {hobi_value}")
+  else:
+    print(key, ":", value)
